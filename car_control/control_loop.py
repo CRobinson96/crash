@@ -14,7 +14,7 @@ while True:
     img = camera.Capture()
     array = cudaToNumpy(img)
 
-
+    print("Im gonna crash")
     # Detect the lane (hints are in Day2/Morning-Session-1/lane_detection.ipynb)
 
     # then use sc control methods to drive.
